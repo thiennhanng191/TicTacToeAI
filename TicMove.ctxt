@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=TicMove
+comment0.text=\ \r\n\ Representing\ a\ TicMove,\ or\ a\ move\ played\ in\ the\ TicTacToe\ game.\r\n\ @author\ Nhan\ Nguyen\r\n\ @version\ CMPU-102-Homework2\ 2.0\r\n
+comment1.params=row\ col
+comment1.target=TicMove(int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ TicMove.\r\n
+numComments=2

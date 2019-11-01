@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=HumanTicPlayer
+comment0.text=\ \r\n\ Representing\ a\ human\ player\ in\ the\ TicTacToe\ game,\ whose\ moves\ are\ input\ by\ the\ user.\r\n\ @author\ Nhan\ Nguyen\r\n\ @version\ CMPU-102-Homework2\ 2.0\r\n
+comment1.params=game
+comment1.target=HumanTicPlayer(TicGame)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ HumanTicPlayer.\r\n
+comment2.params=
+comment2.target=TicMove\ pickMove()
+comment2.text=\r\n\ Ask\ the\ user\ to\ make\ a\ tic-tac-toe\ move.\ The\ human\ move\ is\ the\ input\ that\ the\ user\ provides,\ consisting\ of\ 2\ characters,\ while\ the\ \r\n\ \ \ \ former\ character\ is\ a\ letter\ representing\ the\ number\ of\ the\ rows\ and\ the\ ladder\ character\ is\ a\ digit\ representing\ the\ numbers\ \r\n\ \ \ \ of\ the\ columns.\ Print\ out\ error\ messages\ if\ the\ input\ does\ not\ consist\ of\ 2\ characters,\ the\ input\ move\ is\ outside\ of\ the\ game\r\n\ \ \ \ board's\ range\ or\ if\ the\ move\ has\ been\ played\ by\ either\ cpu\ or\ human\ player.\ \r\n\ @specified\ by\ pickMove\ in\ class\ ATicPlayer\r\n\ @return\ a\ valid\ TicMove\ from\ the\ user\ or\ null\ if\ the\ user\ wants\ to\ quit.\r\n
+comment3.params=
+comment3.target=TicMove\ pickFirstMove()
+comment3.text=\r\n\ serves\ no\ function,\ only\ there\ for\ the\ cpu\ to\ execute\ its\ pickFirstMove()\ method\r\n\ @return\ null\r\n
+comment4.params=ticMove
+comment4.target=TicMove\ pickNextMove(TicMove)
+comment4.text=\r\n\ serves\ no\ function,\ only\ there\ for\ the\ cpu\ to\ execute\ its\ pickNextMove()\ method\r\n\ @return\ null\r\n
+comment5.params=ticMove
+comment5.target=boolean\ checkSurrounded(TicMove)
+comment5.text=\r\n\ serves\ no\ function,\ only\ there\ for\ the\ cpu\ to\ execute\ its\ checkSurrounded(ticMove)\ method\r\n\ @return\ false\r\n
+comment6.params=
+comment6.target=char\ getSymbol()
+comment6.text=\r\n\ return\ a\ symbol\ representing\ the\ move\ of\ human\ player\ (the\ user).\r\n\ @return\ character\ 'X'\ for\ human\ player.\r\n
+numComments=7

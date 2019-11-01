@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=ATicPlayer
+comment0.text=\ \r\n\ An\ abstract\ class\ representing\ a\ player\ in\ the\ TicTacToe\ game.\ \r\n\ @author\ Nhan\ Nguyen\r\n\ @version\ CMPU-102-Homework2\ 2.0\r\n
+comment1.params=
+comment1.target=ATicPlayer()
+comment1.text=\r\n\ Empty\ constructor\ for\ objects\ of\ class\ ATicPlayer.\r\n
+comment2.params=game
+comment2.target=ATicPlayer(TicGame)
+comment2.text=\r\n\ Constructor\ for\ objects\ of\ class\ ATicPlayer.\r\n
+comment3.params=
+comment3.target=char\ getSymbol()
+comment3.text=\ \r\n\ Returns\ the\ symbol\ representing\ this\ player.\r\n\ @return\ a\ character\ representing\ the\ player's\ symbol.\ \r\n
+comment4.params=
+comment4.target=TicMove\ pickMove()
+comment4.text=\ \r\n\ Enables\ the\ player\ (cpu\ and\ human)\ make\ the\ next\ move.\ The\ cpu\ and\ human\ player\ implements\ this\ method\ differently\ based\ on\ its\ own\r\n\ \ \ \ \ \ \ semantics.\ \r\n\ @return\ the\ move\ that\ the\ player\ picked.\ \r\n
+comment5.params=
+comment5.target=TicMove\ pickFirstMove()
+comment5.text=\ \r\n\ Enables\ the\ cpu\ player\ to\ make\ the\ its\ first\ move\ strategy\r\n\ @return\ the\ cpu's\ first\ move.\ \r\n
+comment6.params=ticMove
+comment6.target=TicMove\ pickNextMove(TicMove)
+comment6.text=\ \r\n\ Enables\ the\ cpu\ to\ execute\ the\ next\ move\ based\ on\ its\ previous\ move\r\n\ @return\ the\ cpu's\ next\ move.\r\n
+comment7.params=ticMove
+comment7.target=boolean\ checkSurrounded(TicMove)
+comment7.text=\r\n\ check\ if\ a\ move\ is\ surrounded,\ that\ is\ all\ the\ moves\ around\ it\ have\ been\ played.\ (Only\ cpu\ player\ should\ make\ use\ of\ this\ method).\r\n\ return\ true\ if\ a\ move\ has\ been\ surrounded.\r\n
+numComments=8
